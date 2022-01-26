@@ -11,7 +11,7 @@ function auth($connect)
 {
 
     if (isset($_SESSION["auth"])) {
-        // вывод "Session is set"; // в целях проверки
+        
         header("Location: profile.php");
     }
 
